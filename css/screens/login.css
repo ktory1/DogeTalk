@@ -58,3 +58,13 @@
   color: inherit;
   font-size: 13px;
 }
+
+.logo {
+  display: flex;
+  justify-content: center;
+  margin-top: 20%;
+}
+
+.logo img {
+  width: 40%;
+}
