@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>PawPrints - DogeTalk</title>
+    <title>More - DogeTalk</title>
   </head>
   <body>
     <div class="status-bar">
@@ -24,9 +24,10 @@
     </div>
 
     <header class="screen-header">
-      <h1 class="screen-header__title">PawPrints</h1>
+      <h1 class="screen-header__title">More</h1>
       <div class="screen-header__icons">
         <span><i class="fas fa-search fa-lg"></i></span>
+        <span><i class="fas fa-music fa-lg"></i></span>
         <span
           ><i class="fas fa-cog fa-lg"></i>
           <div class="alert screen-header__alert"></div
@@ -34,56 +35,46 @@
       </div>
     </header>
 
-    <main class="main-screen">
+    <main class="main-screen more-screen">
+      <div class="user-component">
+        <div class="user-component__column">
+          <img
+            src="https://thumbnail.imgbin.com/14/21/21/imgbin-doge-weather-doge-run-android-doge-coin-f5CYv4g0uYw1y0vy3xbLQ8ase_t.jpg"
+            class="user-component__avatar user-component__avatar--xl"
+          />
+          <div class="user-component__text">
+            <h4 class="user-component__title">DogeTheBoss</h4>
+            <h6 class="user-component__subtitle">
+              +1 234-567-8910 <span>!</span>
+            </h6>
+          </div>
+        </div>
+        <div class="user-component__column">
+          <i class="far fa-comment-alt fa-2x"></i>
+        </div>
+      </div>
       <div class="icon-row">
         <div class="icon-row__icon">
-          <i class="fas fa-qrcode"></i><span>QR Code</span>
+          <i class="far fa-calendar"></i><span>Calendar</span>
         </div>
         <div class="icon-row__icon">
-          <i class="far fa-address-book"></i><span>Add by Contacts</span>
+          <i class="far fa-smile-beam"></i><span>Emoticons</span>
         </div>
         <div class="icon-row__icon">
-          <i class="fas fa-fingerprint"></i><span>Add by ID</span>
+          <i class="fas fa-paint-roller"></i><span>Themes</span>
         </div>
         <div class="icon-row__icon">
-          <i class="far fa-envelope"></i><span>Invite</span>
+          <i class="fas fa-file-invoice-dollar"></i><span>Account</span>
         </div>
       </div>
-
-      <div class="recommended-friends">
-        <h6 class="recommended-friends__title">Recommended Doggos</h6>
-        <span>You have no recommended doggos.</span>
-      </div>
-
-      <div class="open-chat">
-        <div class="open-chat__header">
-          <h4 class="open-chat__title">Open Chat</h4>
-          <span
-            >Go to OpenChat Home <i class="fas fa-chevron-right fa-xs"></i
-          ></span>
-        </div>
-        <div class="open-post">
-          <div class="open-post__column">
-            <h5 class="open-post__title">#BTS</h5>
-            <h6 class="open-post__hashtags">#bts#army#friends</h6>
-            <div class="open-post__members">
-              <img
-                src="https://static.coindesk.com/wp-content/uploads/2021/04/dogecoin.jpg"
-              />
-              <span class="open-post__member-count">802 members</span>
-              <div class="divider"></div>
-              <span class="open-post__member-status">Active</span>
+      <div class="more-suggestions">
+        <h4 class="more-suggestions__title">Suggestions</h4>
+        <div class="more-suggestions__icons">
+          <div class="more-suggestions__icon">
+            <div class="more-suggestions__icon-image">
+              <i class="fas fa-quote-right"></i>
             </div>
-          </div>
-          <div class="open-post__column">
-            <div class="open-post__photo">
-              <img
-                src="http://res.heraldm.com/content/image/2020/07/16/20200716000361_0.jpg"
-              />
-              <div class="open-post__heart-count">
-                <i class="fas fa-heart fa-sm"></i><span>326</span>
-              </div>
-            </div>
+            <span class="more-suggestions__icon-text">Doge Story</span>
           </div>
         </div>
       </div>
@@ -103,12 +94,12 @@
           ></a>
         </li>
         <li class="nav__btn">
-          <a class="nav__link current" href="find.html"
+          <a class="nav__link" href="find.html"
             ><i class="fas fa-paw fa-2x"></i
           ></a>
         </li>
         <li class="nav__btn">
-          <a class="nav__link" href="more.html"
+          <a class="nav__link current" href="more.html"
             ><span class="nav__alert alert"></span
             ><i class="fas fa-ellipsis-h fa-2x"></i
           ></a>
