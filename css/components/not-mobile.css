@@ -17,3 +17,8 @@
     display: none;
   }
 }
+
+#not-mobile img {
+  width: 10%;
+  margin-left: 10px;
+}
