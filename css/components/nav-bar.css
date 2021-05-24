@@ -18,7 +18,7 @@
 }
 
 .current {
-  color: #fae100;
+  color: var(--sub-theme-color);
 }
 
 .nav__notification {
@@ -28,11 +28,6 @@
 }
 
 .nav__alert {
-  background-color: tomato;
-  width: 7px;
-  height: 7px;
-  border-radius: 50%;
-  position: absolute;
   left: 40px;
   bottom: 25px;
 }

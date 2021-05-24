@@ -32,12 +32,12 @@
 
 #login-form input:not([type="submit"]) {
   transition: border-color 0.3s ease-in-out;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  border-bottom: var(--borderline);
   background-color: var(--background-color);
 }
 
 #login-form input::placeholder {
-  color: rgba(0, 0, 0, 0.4);
+  color: var(--grey-theme-color);
 }
 
 #login-form input:focus {
@@ -63,6 +63,7 @@
   display: flex;
   justify-content: center;
   margin-top: 20%;
+  margin-bottom: 10%;
 }
 
 .logo img {

@@ -1,5 +1,8 @@
 :root {
   --theme-color: #3f260a;
   --background-color: #ebe6da;
+  --sub-theme-color: #fae100;
   --horizontal-space: 25px;
+  --grey-theme-color: rgba(63, 38, 10, 0.4);
+  --borderline: 1.5px solid var(--grey-theme-color);
 }
