@@ -15,6 +15,7 @@
 
 .nav__link {
   position: relative;
+  color: white;
 }
 
 .current {
