@@ -10,6 +10,7 @@
 @import "components/user-component.css";
 @import "components/icon-row.css";
 @import "components/alt-screen-header.css";
+@import "components/not-mobile.css";
 
 /* Screens */
 @import "screens/login.css";
@@ -22,8 +23,6 @@
 body {
   font-family: "Open Sans", sans-serif;
   background-color: var(--background-color);
-  /* overflow-y: auto; */
-  height: 200vh;
 }
 
 .main-screen {
